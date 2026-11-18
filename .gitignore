@@ -1,0 +1,95 @@
+# ─── API Keys & Credentials ──────────────────────────────────────────────
+serviceAccountKey.json
+google-services.json
+google-services.*.json
+*.keystore
+*.jks
+*.p12
+.env
+.env.local
+.env.production
+.env*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# ─── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ─── YOLO / ML models ────────────────────────────────────────────────────────
+*.pt
+*.onnx
+*.torchscript
+runs/
+capture_*.jpg
+
+# ─── Android ─────────────────────────────────────────────────────────────────
+*.apk
+*.aar
+.gradle
+.idea/
+*.iws
+*.ipr
+*.iml
+local.properties
+key.properties
+/build
+/captures
+/outputs
+
+# ─── IDE & Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Git ─────────────────────────────────────────────────────────────────────
+.gitkeep
+
+# ─── Node.js ─────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ─── OS Generated Files ──────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
